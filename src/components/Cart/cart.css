@@ -1,0 +1,108 @@
+.cartcardheader{
+    background-color: black;
+    width : 70vw;
+    height : 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: -1px;
+    margin-top : -1px;
+    border-radius : 5px 5px 0px 0px
+
+}
+.clrcartbtn{
+    height:35px;
+    color:white;
+    background-color: rgba(255 14 0);
+    padding-left:10px;
+    padding-right: 10px;
+    border : none;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.clrcartbtn:hover{
+    color: rgba(255 14 0);
+    background-color: white;
+    cursor: pointer;
+}
+.cartcard{
+    border : 1px solid grey;
+    border-radius: 5px;
+}
+.headleft{
+    margin-left: 30px;
+}
+.cartbody{
+    width:70vw;
+    min-height: 190px;
+}
+.ico{
+    transform : scale(11);
+    color: rgba(194, 186, 186, 0.623);
+}
+.icon{
+    width:150px;
+    height:190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emptycart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-img{
+    width:40px;
+    height:40px;
+    border-radius: 3px;
+}
+td{
+    width:11vw
+}
+.qty-input-box{
+    width:35px;
+    height:27px
+}
+.prdct-qty-btn{
+    width:35px;
+    height:35px;
+    margin-left : 2px;
+    margin-right: 2px;
+    background-color: rgb(172, 218, 236);
+    color:blue;
+    border : 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.prdct-qty-btn:hover{
+    color:rgb(172, 218, 236);
+    background-color: blue;
+}
+.prdct-delete{
+    width:35px;
+    height:35px;
+    color:red;
+    background-color: rgba(255, 103, 103, 0.233);
+    border:1px white;
+    border-radius: 4px;
+
+}
+.prdct-delete:hover{
+    color:white;
+    background-color:red;
+}
+thead{
+    border : 1px solid black
+}
+/* .rows{
+    margin-top: 5px;
+} */
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
